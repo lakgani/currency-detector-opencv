@@ -22,7 +22,7 @@ test_img = read_img('files/test_20_2.jpg')
 
 # resizing must be dynamic
 original = resize_img(test_img, 0.4)
-display('original', original)
+# display('original', original)
 
 # keypoints and descriptors
 # (kp1, des1) = orb.detectAndCompute(test_img, None)
